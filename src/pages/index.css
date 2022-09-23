@@ -109,3 +109,12 @@
 @import url('../blocks/principles/__pic/_triangle/principles__pic_triangle.css');
 @import url('../blocks/principles/__heading/principles__heading.css');
 @import url('../blocks/principles/__pic/_oval/principles__pic_oval.css');
+@import url('../blocks/questions/questions.css');
+@import url('../blocks/questions/__button/questions__button.css');
+@import url('../blocks/questions/__container/questions__container.css');
+@import url('../blocks/questions/__element/questions__element.css');
+@import url('../blocks/questions/__heading/questions__heading.css');
+@import url('../blocks/questions/__subheading/questions__subheading.css');
+@import url('../blocks/questions/__text/questions__text.css');
+@import url('../blocks/questions/__textarea/questions__textarea.css');
+@import url('../blocks/questions/__text/_shown/questions__text_shown.css');
