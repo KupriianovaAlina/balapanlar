@@ -1,0 +1,67 @@
+.parents__base {
+	width: 100%;
+	margin-top: 60%;
+	background-color: #eaf0ff;
+	height: 130vw;
+}
+
+@media screen and (max-width: 1300px) {
+	.parents__base {
+		margin-top: 80%;
+		height: 240vw;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.parents__base {
+		height: 260vw;
+	}
+}
+
+@media screen and (max-width: 1020px) {
+	.parents__base {
+		height: 300vw;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.parents__base {
+		height: 330vw;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	.parents__base {
+		height: 350vw;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.parents__base {
+		height: 400vw;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.parents__base {
+		height: 7350px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.parents__base {
+		height: 7600px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.parents__base {
+		height: 7474px;
+	}
+}
+
+@media screen and (max-width: 290px) {
+	.parents__base {
+		height: 7600px;
+	}
+}
