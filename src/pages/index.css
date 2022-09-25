@@ -171,3 +171,9 @@
 @import url('../blocks/popup-place/__button-img/popup-place__button-img.css');
 @import url('../blocks/popup-place/___image/popup-place__image.css');
 @import url('../blocks/white-container/white-container.css');
+@import url('../blocks/team/team.css');
+@import url('../blocks/team/__container/team__container.css');
+@import url('../blocks/team/__member-image/team__member-image.css');
+@import url('../blocks/team/__member-name/team__member-name.css');
+@import url('../blocks/team/__member-title/team__member-title.css');
+@import url('../blocks/team/__member/team__member.css');
