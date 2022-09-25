@@ -1,0 +1,19 @@
+.why-like__list {
+	display: flex;
+
+	/* flex-direction: column; */
+	gap: 40px;
+
+	/* min-width: 500%; */
+	margin: 0;
+	padding: 0;
+	color: white;
+	list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+	.why-like__list {
+		flex-direction: column;
+		gap: 10px;
+	}
+}

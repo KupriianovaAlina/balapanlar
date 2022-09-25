@@ -1,0 +1,19 @@
+.why-like__text-container {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	max-width: 666px;
+}
+
+@media screen and (max-width: 768px) {
+	.why-like__text-container {
+		max-width: 503px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.why-like__text-container {
+		align-items: center;
+		gap: 30px;
+	}
+}
