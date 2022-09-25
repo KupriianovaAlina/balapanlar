@@ -1,0 +1,5 @@
+.help__block-container_line-spasing-15 {
+	display: flex;
+	justify-content: flex-start;
+	row-gap: 15px;
+}

@@ -1,0 +1,21 @@
+.place {
+	width: calc(100% - 120px * 2);
+	margin-bottom: 125px;
+	padding: 120px 0 120px 120px;
+}
+
+@media all and (max-width: 744px) {
+	.place {
+		width: calc(100% - 75px * 2);
+		max-width: 100%;
+		padding: 75px;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.place {
+		width: calc(100% - 15px * 2);
+		margin-top: 15px;
+		padding: 15px;
+	}
+}

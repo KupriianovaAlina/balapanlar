@@ -1,0 +1,18 @@
+.footer__copy {
+	margin: 0;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+@media all and (max-width: 744px) {
+	.footer__copy {
+		text-align: center;
+	}
+}
+
+@media all and (min-width: 320px) {
+	.footer__copy {
+		text-align: left;
+	}
+}
