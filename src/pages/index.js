@@ -64,34 +64,47 @@ const principlesHeadingTweenData = {
 	tabletWidth: 768,
 };
 
+const whylikeTweenData = {
+	selector: ".why-like__wrapper",
+	horizontalShift: -75,
+	triggerSelector: ".why-like__wrapper",
+	pinState: true,
+	tabletWidth: 768,
+	snap: false,
+};
+
 const principlesTween = new Tween(principlesTweenData);
 const principlesHeadingTween = new Tween(principlesHeadingTweenData);
+const whylikeTween = new Tween(whylikeTweenData);
 
 principlesTween.toggleTween();
-principlesHeadingTween.toggleTween();
+principlesTween.toggleTween();
+whylikeTween.toggleTween();
 
 window.addEventListener("resize", principlesTween.toggleTween);
 window.addEventListener("resize", principlesHeadingTween.toggleTween);
+window.addEventListener("resize", whylikeTween.toggleTween);
 
 document
 	.querySelectorAll("[data-attribute-anchor]")
 	.forEach((link) => scrollToAnchor(link));
 
 /// часть, анимирующая раздел FAQ
-const openButtons = document.querySelectorAll(".questions__button")
+const openButtons = document.querySelectorAll(".questions__button");
 
 // функция, показывающая или скрывающая текст ответа
 const openCloseAnswer = (answers) => {
 	answers.forEach((answer) => {
 		answer.classList.toggle("questions__text_shown");
 	});
-}
+};
 
 // функция, которая меняет в кнопке раскрытия + на -
 const changeIcon = (openButton) => {
-	(openButton.textContent === "+") ? openButton.textContent = "-" : openButton.textContent = "+"
+	openButton.textContent === "+"
+		? (openButton.textContent = "-")
+		: (openButton.textContent = "+");
 };
-
 
 // функция, изменяющая состояние области ответа
 const changeStatusOfAnswer = (openButton) => {
@@ -106,7 +119,7 @@ const changeStatusOfAnswer = (openButton) => {
 openButtons.forEach((openButton) => {
 	openButton.addEventListener("click", function () {
 		changeStatusOfAnswer(openButton);
-	})
+	});
 });
 
 //открытие попапа секции Как Нас Найти (place)
