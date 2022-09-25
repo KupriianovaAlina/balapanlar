@@ -1,0 +1,11 @@
+.help__block-img {
+  width: 100%;
+  object-fit: cover;
+  min-height: 431px;
+}
+
+@media screen and (max-width: 480px) {
+  .help__block-img {
+    min-height: 290px;
+  }
+}
