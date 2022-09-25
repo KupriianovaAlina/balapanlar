@@ -121,3 +121,24 @@ openButtons.forEach((openButton) => {
 		changeStatusOfAnswer(openButton);
 	});
 });
+
+//открытие попапа секции Как Нас Найти (place)
+const popupPlace = document.querySelector('.popup-place');
+const placeOpenBtn = document.querySelector('.place__button') ;
+
+placeOpenBtn.addEventListener('click', () => {
+	popupPlace.classList.add('popup-place_opened')
+});
+
+function openPlace() {
+	popupPlace.classList.remove('popup-place_opened');
+};
+
+const PlaceCloseBtn = document.querySelector('.popup-place__close-button')
+PlaceCloseBtn.addEventListener('click', () => {
+	openPlace()
+});
+
+popupPlace.addEventListener('click', (evt) => {
+	openPlace()
+});

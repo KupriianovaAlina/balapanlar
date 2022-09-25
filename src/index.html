@@ -28,7 +28,7 @@
 						<a href="#" class="header__link link">Как нас найти</a>
 					</li>
 					<li class="header__nav-item">
-						<a href="#" class="header__link link">Поддержать проект</a>
+						<a href="#help" class="header__link link">Поддержать проект</a>
 					</li>
 				</ul>
 			</nav>
@@ -528,6 +528,73 @@
 					</ul>
 				</div>
 			</section>
+			<section class="help main__section main__section_margin_wide">
+        <div class="help__container">
+          <h2 class="section-title">Поддержать наш проект</h2>
+          <p class="section-subtitle">
+            Миссия нашей организации — помочь детям в аулах. Мы знаем, как много
+            детей из-за невнимания родителей, безучастности школы и отсутствия
+            денег и условий не могут полноценно развиваться и стать успешными
+            взрослыми в будущем. Поэтому мы ищем спонсоров,
+            кто мог бы им помочь.
+          </p>
+          <div class="help__blocks-container">
+            <h3 class="help__blocks-title">Как вы можете помочь?</h3>
+            <ul class="help__blocks-grid">
+              <li
+                class="help__block-container border__redius_size_m help__block-container_theme_yellow"
+              >
+                <p class="help__block-text">
+                  Делая небольшое ежемесячное пожертвование, вы можете
+                  обеспечить детей материалами для занятий и мастер-классов,
+                  оплатить работу преподавателей или стать спонсором ребёнку
+                </p>
+                <a
+                  href="https://balapanlar.ru/campaign/na-ustavnuyu-deyatelnost-organizaczii/"
+                  target="_blank"
+                  class="button button_for_donation link"
+                  >Сделать пожертвование</a
+                >
+              </li>
+              <li
+                class="help__block-container border__redius_size_m help__block-container_theme_lilac"
+              >
+                <p class="help__block-text">
+                  Мы всегда в поиске преподавателей, менторов, если вы хотите
+                  провести лекцию, мастер класс или консультацию pro bono
+                  по вашей теме — напишите нам на почту или свяжитесь с нами
+                  через форму ниже
+                </p>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSckp975242KEGteEg9gsT9JQ7E7G3kyfOa8GT3P1iwC6QIukA/viewform"
+                  target="_blank"
+                  class="button button__color-purple button_for_mentor link"
+                  >Стать ментором</a
+                >
+              </li>
+              <li
+                class="help__block-container help__block-container_line-spasing-15 border__redius_size_m help__block-container_theme_blue"
+              >
+                <p class="help__block-text">
+                  Вы можете купить нам книги или подарить те, которые
+                  уже прочитали.</p>
+                  <p class="help__block-text">
+                  Присылать можно по адресу: 369357, Карачаево-Черкесия,
+                  Ногайский район, аул Эркин-Халк, ул. Набережная 3, Шахмирзе
+                  Бэлле
+                </p>
+              </li>
+              <li class="help__block-img-container border__redius_size_m">
+                <img
+                  class="help__block-img"
+                  src="<%=require('./vendor/images/help_our_project.jpg')%>"
+                  alt="Два мальчика в масках на фоне гор"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 			<section class="questions">
 				<h2 class="questions__heading section-title">Часто задаваемые вопросы</h2>
 				<ul class="questions__container">
@@ -678,8 +745,61 @@
 					</li>
 				</ul>
 			</section>
+			<section class="place" id="place">
+				<h2 class="place__title">Как нас найти</h2>
+				<p class="place__subtitle">
+					Адрес «УЯ»: аул Икон-Халк, ул. Ленина 175, ТЦ «Каскад», 2 этаж
+				</p>
+				<div class="place__elements">
+					<iframe class="place__element place__element_type_frame"
+						src="https://yandex.ru/map-widget/v1/?um=constructor:c37e8726b00650d867fb99b9b8b3dd5f2cf58d66f4cc4fdd1ea3dfc39432155e&amp;source=constructor"
+						frameborder="0"></iframe>
+					<div class="place__element place__element_type_back">
+						<div class="place__purple">
+							<img src="<%=require('./vendor/images/htffiol.png')%>" alt="вход" class="place__image" />
+							<p class="place__el-des">
+								вход через серые ворота справа от аптеки
+							</p>
+						</div>
+						<img src="<%=require('./vendor/images/loup.png')%>" alt="Увеличить изображение" class="place__button">
+					</div>
+				</div>
+			</section>
 		</main>
-		<footer class="footer"></footer>
+		<footer class="footer">
+			<div class="footer__project-block">
+				<img src="<%=require('./vendor/images/logo-animals.svg')%>" alt="Логотип" class="footer__logo" />
+				<a href="https://balapanlar.ru/campaign/na-ustavnuyu-deyatelnost-organizaczii/" target="_blank"
+					class="footer__button button link button_for_footer">
+					Поддержать проект
+				</a>
+			</div>
+			<div class="footer__info">
+				<h2 class="footer__info-title">Данные об организации</h2>
+				<div class="footer__info-texts">
+					<p class="footer__info-text">
+						Автономная некоммерческая организация Центр социальных
+						инновационных технологий «ЗАМАН»
+					</p>
+					<p class="footer__info-text">ИНН 9701112541 КПП 770101001</p>
+					<p class="footer__info-text">ОГРН 1187700010244</p>
+					<p class="footer__info-text">
+						р/с 40703810238000014372 БИК 044525225
+					</p>
+					<p class="footer__info-text">
+						ПАО СберБанк к/с 30101810400000000225
+					</p>
+					<p class="footer__info-text">Юридический адрес: 105082 Москва,</p>
+					<p class="footer__info-text">
+						ул. Б. Почтовая, 18/20, корп. 11, кв. 65
+					</p>
+				</div>
+			</div>
+			<div class="footer__copy-block">
+				<p class="footer__copy">© Летние школы «Балапанлар», 2022</p>
+				<p class="footer__copy">Сделано c студентами Яндекс Практикума</p>
+			</div>
+		</footer>
 	</div>
 	<div class="popup popup_type_course" data-scroll-lock-scrollable>
 		<div class="popup__container" data-scroll-lock-scrollable>
@@ -692,6 +812,14 @@
 			<div class="popup__content"></div>
 			<button type="button" class="popup__close-button" aria-label="Закрыть модальное окно."></button>
 			<a href="" class="button button_for_partner link" target="_blank">Сайт партнера</a>
+		</div>
+	</div>
+	<div class="popup-place" data-scroll-lock-scrollable>
+		<div class="popup-place__cont">
+			<button type="button" class="popup-place__close-button" aria-label="Закрыть модальное окно.">
+				<img src="<%=require('./vendor/images/close-button_white.png')%>" alt="Закрыть" class="popup-place__button-img">
+			</button>
+			<img src="<%=require('./vendor/images/HTFpopup.png')%>" alt="схематичная карта" class="popup-place__image">
 		</div>
 	</div>
 </body>

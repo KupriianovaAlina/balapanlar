@@ -1,0 +1,18 @@
+.help__blocks-container {
+  box-sizing: border-box;
+  padding: 80px 0 120px;
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .help__blocks-container {
+    padding: 80px 0 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .help__blocks-container {
+    padding: 30px 0 30px;
+  }
+}
