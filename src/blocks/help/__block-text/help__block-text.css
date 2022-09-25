@@ -1,0 +1,17 @@
+.help__block-text {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .help__block-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
