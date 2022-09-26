@@ -1,15 +1,15 @@
 .parents__reason-description {
-	margin: 0 30px 30px;
+	margin: 0 90px 90px;
 	padding: 0;
-	font-weight: 600;
-	font-size: 24px;
-	line-height: 29px;
-	letter-spacing: -0.5px;
+	font-weight: 1000;
+	font-size: 72px;
+	line-height: 87px;
+	letter-spacing: -1.5px;
 }
 
 @media screen and (max-width: 640px) {
 	.parents__reason-description {
 		text-align: center;
-		margin: 0 37px;
+		margin: 0 111px;
 	}
 }

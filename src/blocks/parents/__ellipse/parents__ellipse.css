@@ -1,7 +1,23 @@
 .parents__ellipse {
-	width: 100%;
-	aspect-ratio: 1 / 1;
+  width: 100%;
+	height: 100vw;
 	background-color: #eaf0ff;
-	border-radius: 50%;
-	margin: 0 auto -50%;
+  border-radius: 50% 50% 0 0;
+  margin: 0 auto -50%;
+	position: absolute;
+  top: 109px;
+	transform: translateZ(0);
 }
+
+@media screen and (max-width: 770px) {
+	.parents__ellipse {
+		top: 40px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.parents__ellipse {
+		top: 30px;
+	}
+}
+
