@@ -1,0 +1,33 @@
+/* stylelint-disable order/properties-order */
+
+.place__elements {
+	display: grid;
+	grid-template-rows: 526px;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	width: 100%;
+	height: 526px;
+}
+
+@media all and (max-width: 992px) {
+	.place__elements {
+		grid-template-rows: 524px 524px;
+		height: 371px;
+	}
+}
+
+@media all and (max-width: 744px) {
+	.place__elements {
+		grid-template-rows: 524px 524px;
+		grid-template-columns: 1fr;
+		height: 1058px;
+		justify-items: center;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.place__elements {
+		grid-template-rows: 255px 255px;
+		height: 520px;
+	}
+}

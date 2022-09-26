@@ -1,0 +1,14 @@
+/* stylelint-disable order/properties-order */
+
+.place__element_type_back {
+	display: flex;
+	background-image: url('../../../../vendor/images/HowToFindAft.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	align-items: flex-end;
+	justify-content: space-between;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 0;
+}
