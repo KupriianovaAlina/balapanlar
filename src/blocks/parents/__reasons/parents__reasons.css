@@ -1,0 +1,26 @@
+.parents__reasons {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 292px);
+	grid-template-rows: repeat(2, 277px);
+	gap: 10px;
+	justify-items: stretch;
+	align-items: stretch;
+}
+
+@media screen and (max-width: 1300px) {
+	.parents__reasons {
+		grid-template-columns: repeat(auto-fit, 292px);
+		grid-template-rows: repeat(auto-fit, 277px);
+
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.parents__reasons {
+		grid-template-columns: repeat(1, 300px);
+		grid-template-rows: repeat(auto-fit, 400px);
+	}
+}

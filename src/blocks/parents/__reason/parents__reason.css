@@ -1,0 +1,22 @@
+.parents__reason {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: flex-start;
+	max-width: 292px;
+	aspect-ratio: 292 / 277;
+	border-radius: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+@media screen and (max-width: 640px) {
+	.parents__reason {
+		max-width: 300px;
+		aspect-ratio: 300 / 400;
+		border-radius: 30px;
+		justify-content: center;
+		align-items: center;
+	}
+}
