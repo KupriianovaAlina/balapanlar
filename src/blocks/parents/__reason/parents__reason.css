@@ -3,9 +3,9 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: flex-start;
-	max-width: 292px;
+	max-width: 876px;
 	aspect-ratio: 292 / 277;
-	border-radius: 50px;
+	border-radius: 150px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -13,9 +13,9 @@
 
 @media screen and (max-width: 640px) {
 	.parents__reason {
-		max-width: 300px;
+		max-width: 900px;
 		aspect-ratio: 300 / 400;
-		border-radius: 30px;
+		border-radius: 90px;
 		justify-content: center;
 		align-items: center;
 	}
