@@ -177,3 +177,17 @@
 @import url('../blocks/team/__member-name/team__member-name.css');
 @import url('../blocks/team/__member-title/team__member-title.css');
 @import url('../blocks/team/__member/team__member.css');
+@import url('../blocks/parents/__base/parents__base.css');
+@import url('../blocks/parents/__ellipse/parents__ellipse.css');
+@import url('../blocks/parents/__container/parents__container.css');
+@import url('../blocks/parents/__reasons/parents__reasons.css');
+@import url('../blocks/parents/__reason/parents__reason.css');
+@import url('../blocks/parents/__reason/_type/parents__reason_type_main.css');
+@import url('../blocks/parents/__reason-description/parents__reason-description.css');
+@import url('../blocks/parents/__reason/_type/parents__reason_type_time.css');
+@import url('../blocks/parents/__reason-txt/parents__reason-txt.css');
+@import url('../blocks/parents/__reason/_type/parents__reason_type_university.css');
+@import url('../blocks/parents/__reason/_type/parents__reason_type_knowledge.css');
+@import url('../blocks/parents/__reason/_type/parents__reason_type_successes.css');
+@import url('../blocks/parents/__reason/_type/parents__reason_type_professions.css');
+@import url('../blocks/parents/__reason/_type/parents__reason_type_tea.css');
