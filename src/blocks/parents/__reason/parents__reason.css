@@ -1,7 +1,7 @@
 .parents__reason {
 	display: flex;
 	flex-direction: column;
-	justify-content: end;
+	justify-content: flex-end;
 	align-items: flex-start;
 	max-width: 292px;
 	aspect-ratio: 292 / 277;
