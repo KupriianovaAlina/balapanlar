@@ -1,0 +1,10 @@
+.place__purple {
+	height: 146px;
+	border-radius: 0 0 0 40px;
+}
+
+@media all and (max-width: 480px) {
+	.place__purple {
+		height: 99px;
+	}
+}

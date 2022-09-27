@@ -1,0 +1,12 @@
+.footer__info-title {
+	margin: 0;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+@media all and (max-width: 744px) {
+	.footer__info-title {
+		text-align: center;
+	}
+}
