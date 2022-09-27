@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 class Tween {
 	constructor(tweenData) {
-		this.data = tweenData; //Записываем внутреннюю переменную
+		this.data = tweenData;
 		this.tween = gsap.to(tweenData.selector, {
 			xPercent: tweenData.horizontalShift,
 			ease: "none",
@@ -14,7 +14,7 @@ class Tween {
 				pin: tweenData.pinState,
 				start: "top top",
 				scrub: 1,
-				snap: this.data.snap,
+				snap: 0.5,
 				end: "bottom",
 			},
 		});

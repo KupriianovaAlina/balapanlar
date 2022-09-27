@@ -1,8 +1,0 @@
-.footer__info {
-	display: flex;
-	grid-area: footer__info;
-	flex-direction: column;
-	align-self: self-end;
-	gap: 15px;
-	max-width: 493px;
-}
