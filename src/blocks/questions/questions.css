@@ -1,0 +1,17 @@
+.questions {
+	max-width: 1200px;
+	padding: 120px 120px 40px;
+	background-color: white;
+}
+
+@media screen and (max-width: 990px) {
+	.questions {
+		padding: 80px 75px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.questions {
+		padding: 30px 15px 52px;
+	}
+}

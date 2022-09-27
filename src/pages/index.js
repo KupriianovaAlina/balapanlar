@@ -64,15 +64,81 @@ const principlesHeadingTweenData = {
 	tabletWidth: 768,
 };
 
+const whylikeTweenData = {
+	selector: ".why-like__wrapper",
+	horizontalShift: -75,
+	triggerSelector: ".why-like__wrapper",
+	pinState: true,
+	tabletWidth: 768,
+	snap: false,
+};
+
 const principlesTween = new Tween(principlesTweenData);
 const principlesHeadingTween = new Tween(principlesHeadingTweenData);
+const whylikeTween = new Tween(whylikeTweenData);
 
 principlesTween.toggleTween();
-principlesHeadingTween.toggleTween();
+principlesTween.toggleTween();
+whylikeTween.toggleTween();
 
 window.addEventListener("resize", principlesTween.toggleTween);
 window.addEventListener("resize", principlesHeadingTween.toggleTween);
+window.addEventListener("resize", whylikeTween.toggleTween);
 
 document
 	.querySelectorAll("[data-attribute-anchor]")
 	.forEach((link) => scrollToAnchor(link));
+
+/// часть, анимирующая раздел FAQ
+const openButtons = document.querySelectorAll(".questions__button");
+
+// функция, показывающая или скрывающая текст ответа
+const openCloseAnswer = (answers) => {
+	answers.forEach((answer) => {
+		answer.classList.toggle("questions__text_shown");
+	});
+};
+
+// функция, которая меняет в кнопке раскрытия + на -
+const changeIcon = (openButton) => {
+	openButton.textContent === "+"
+		? (openButton.textContent = "-")
+		: (openButton.textContent = "+");
+};
+
+// функция, изменяющая состояние области ответа
+const changeStatusOfAnswer = (openButton) => {
+	const openButtonParent = openButton.closest(".questions__element");
+	const answers = openButtonParent.querySelectorAll(".questions__text");
+
+	openCloseAnswer(answers);
+	changeIcon(openButton);
+};
+
+// вешаем на каждую кнопку открытия ответа обработчик события
+openButtons.forEach((openButton) => {
+	openButton.addEventListener("click", function () {
+		changeStatusOfAnswer(openButton);
+	});
+});
+
+//открытие попапа секции Как Нас Найти (place)
+const popupPlace = document.querySelector('.popup-place');
+const placeOpenBtn = document.querySelector('.place__button') ;
+
+placeOpenBtn.addEventListener('click', () => {
+	popupPlace.classList.add('popup-place_opened')
+});
+
+function openPlace() {
+	popupPlace.classList.remove('popup-place_opened');
+};
+
+const PlaceCloseBtn = document.querySelector('.popup-place__close-button')
+PlaceCloseBtn.addEventListener('click', () => {
+	openPlace()
+});
+
+popupPlace.addEventListener('click', (evt) => {
+	openPlace()
+});
