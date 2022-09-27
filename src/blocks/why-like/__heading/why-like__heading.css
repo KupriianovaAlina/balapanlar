@@ -1,0 +1,38 @@
+.why-like__heading {
+	z-index: 0;
+	min-width: 543px;
+	max-width: 550px;
+	padding-right: 43px;
+	padding-left: 120px;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 68px;
+	letter-spacing: -1px;
+}
+
+@media screen and (max-width: 768px) {
+	.why-like__heading {
+		align-self: center;
+
+		/* max-width: 594px; */
+		min-width: 100%;
+		margin: 0;
+		padding: 0;
+		padding-bottom: 81px;
+		font-size: 48px;
+		line-height: 59px;
+		letter-spacing: -1px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.why-like__heading {
+		max-width: 260px;
+		padding-bottom: 29px;
+		font-size: 36px;
+		line-height: 44px;
+		letter-spacing: -1px;
+		text-align: center;
+	}
+}

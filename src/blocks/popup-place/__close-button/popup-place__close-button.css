@@ -1,0 +1,12 @@
+/* stylelint-disable order/properties-order */
+
+.popup-place__close-button {
+	position: relative;
+	top: -915px;
+	right: -897px;
+	padding: 0;
+	margin: 0%;
+	border: 0;
+	background: none;
+	cursor: pointer;
+}

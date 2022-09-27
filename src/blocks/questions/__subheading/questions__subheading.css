@@ -1,0 +1,15 @@
+.questions__subheading {
+	margin: 0;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: -0.5px;
+}
+
+
+@media screen and (max-width: 990px) {
+	.questions__subheading {
+		font-size: 18px;
+		line-height: 22px;
+	}
+}
