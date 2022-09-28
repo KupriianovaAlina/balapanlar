@@ -172,6 +172,7 @@
 @import url('../blocks/popup-place/__close-button/popup-place__close-button.css');
 @import url('../blocks/popup-place/__button-img/popup-place__button-img.css');
 @import url('../blocks/popup-place/___image/popup-place__image.css');
+@import url('../blocks/popup-place/__cont/popup-place__cont.css');
 @import url('../blocks/white-container/white-container.css');
 @import url('../blocks/team/team.css');
 @import url('../blocks/team/__container/team__container.css');
