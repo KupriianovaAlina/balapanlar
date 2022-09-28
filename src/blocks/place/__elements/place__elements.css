@@ -18,7 +18,6 @@
 
 @media all and (max-width: 744px) {
 	.place__elements {
-		grid-template-rows: 524px 524px;
 		grid-template-columns: 1fr;
 		height: 1058px;
 		justify-items: center;
