@@ -4,22 +4,30 @@
 	padding: 0;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(auto-fit, 1fr);
 	gap: 30px;
 	justify-items: stretch;
 	align-items: stretch;
+	position: absolute;
+	top: 1060px;
+	transform: translateZ(-2px);
 }
 
 @media screen and (max-width: 1300px) {
 	.parents__reasons {
 		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(auto-fit, 1fr);
+		top: 900px;
+	}
+}
+
+@media screen and (max-width: 744px) {
+	.parents__reasons {
+		top: 300px;
 	}
 }
 
 @media screen and (max-width: 640px) {
 	.parents__reasons {
 		grid-template-columns: repeat(1, 1fr);
-		grid-template-rows: repeat(auto-fit, 1fr);
+		top: 50px;
 	}
 }
