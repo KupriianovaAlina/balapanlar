@@ -90,7 +90,7 @@ document
 	.forEach((link) => scrollToAnchor(link));
 
 /// часть, анимирующая раздел FAQ
-const openButtons = document.querySelectorAll(".questions__button");
+const questionsElements = document.querySelectorAll(".questions__element");
 
 // функция, показывающая или скрывающая текст ответа
 const openCloseAnswer = (answers) => {
@@ -107,24 +107,24 @@ const changeIcon = (openButton) => {
 };
 
 // функция, изменяющая состояние области ответа
-const changeStatusOfAnswer = (openButton) => {
-	const openButtonParent = openButton.closest(".questions__element");
-	const answers = openButtonParent.querySelectorAll(".questions__text");
+const changeStatusOfAnswer = (questionElement) => {
+	const openButton = questionElement.querySelector(".questions__button");
+	const answers = questionElement.querySelectorAll(".questions__text");
 
 	openCloseAnswer(answers);
 	changeIcon(openButton);
 };
 
-// вешаем на каждую кнопку открытия ответа обработчик события
-openButtons.forEach((openButton) => {
-	openButton.addEventListener("click", function () {
-		changeStatusOfAnswer(openButton);
+// вешаем на каждый вопрос обработчик события
+questionsElements.forEach((questionsElement) => {
+	questionsElement.addEventListener("click", function () {
+		changeStatusOfAnswer(questionsElement);
 	});
 });
 
 //открытие попапа секции Как Нас Найти (place)
 const popupPlace = document.querySelector('.popup-place');
-const placeOpenBtn = document.querySelector('.place__button') ;
+const placeOpenBtn = document.querySelector('.place__button');
 
 placeOpenBtn.addEventListener('click', () => {
 	popupPlace.classList.add('popup-place_opened')
