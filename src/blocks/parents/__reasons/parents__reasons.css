@@ -3,8 +3,8 @@
 	margin: 0;
 	padding: 0;
 	display: grid;
-	grid-template-columns: repeat(4, 876px);
-	grid-template-rows: repeat(auto-fit, 831px);
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(auto-fit, 1fr);
 	gap: 30px;
 	justify-items: stretch;
 	align-items: stretch;
@@ -12,14 +12,14 @@
 
 @media screen and (max-width: 1300px) {
 	.parents__reasons {
-		grid-template-columns: repeat(2, 876px);
-		grid-template-rows: repeat(auto-fit, 831px);
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(auto-fit, 1fr);
 	}
 }
 
 @media screen and (max-width: 640px) {
 	.parents__reasons {
-		grid-template-columns: repeat(1, 900px);
-		grid-template-rows: repeat(auto-fit, 1200px);
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(auto-fit, 1fr);
 	}
 }

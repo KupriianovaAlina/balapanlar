@@ -4,6 +4,7 @@
 	justify-content: flex-end;
 	align-items: flex-start;
 	max-width: 876px;
+	min-height: 831px;
 	aspect-ratio: 292 / 277;
 	border-radius: 150px;
 	background-repeat: no-repeat;
@@ -14,6 +15,7 @@
 @media screen and (max-width: 640px) {
 	.parents__reason {
 		max-width: 900px;
+		min-height: 1200px;
 		aspect-ratio: 300 / 400;
 		border-radius: 90px;
 		justify-content: center;
