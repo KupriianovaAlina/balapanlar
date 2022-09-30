@@ -5,7 +5,6 @@ import { PopupWithBurger } from "../components/PopupWithBurger.js";
 import { checkScreenWidth } from "../components/headerState.js";
 import { Tween } from "../components/tween.js";
 import { scrollToAnchor } from "../utils.js/anchorLinkScroll.js";
-// import { WhyTextChange } from "../components/WhyTextChange.js";
 
 
 const cards = document.querySelectorAll(".course-card");
