@@ -1,0 +1,35 @@
+/* BM CSS/Модификатор заголовка  */
+
+.section-title_type_why-like {
+	/* display: block; */
+	box-sizing: border-box;
+	width: 543px;
+	margin-right: 62px;
+	font-weight: 600;
+	font-size: 60px;
+	font-style: normal;
+	line-height: 68px;
+	letter-spacing: -1px;
+}
+
+@media screen and (max-width: 768px) {
+	.section-title_type_why-like {
+		margin: 0;
+		margin-bottom: 80px;
+		padding: 0;
+		font-weight: 600;
+		font-size: 48px;
+		line-height: 59px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.section-title_type_why-like {
+		width: 90%;
+		margin-bottom: 30px;
+		font-size: 36px;
+		line-height: 44px;
+		text-align: center;
+	}
+}
