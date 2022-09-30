@@ -29,6 +29,7 @@
 @import url('../blocks/button/_for/button_for_courses.css');
 @import url('../blocks/button/_for/button_for_course-pay.css');
 @import url('../blocks/button/_for/button_for_burger.css');
+@import url('../blocks/button/_for/button_for_footer.css');
 @import url('../blocks/telegram-block/telegram-block.css');
 @import url('../blocks/telegram-block/__logo/telegram-block__logo.css');
 @import url('../blocks/telegram-block/__welcome/telegram-block__welcome.css');
@@ -135,7 +136,6 @@
 @import url('../blocks/questions/__textarea/questions__textarea.css');
 @import url('../blocks/questions/__text/_shown/questions__text_shown.css');
 @import url('../blocks/why-like/why-like.css');
-@import url('../blocks/why-like/__heading/why-like__heading.css');
 @import url('../blocks/why-like/__item/why-like__item.css');
 @import url('../blocks/why-like/__item/_back/why-like__item_back_blue.css');
 @import url('../blocks/why-like/__item/_back/why-like__item_back_olimpiads.css');
@@ -146,8 +146,10 @@
 @import url('../blocks/why-like/__statement/why-like__statement.css');
 @import url('../blocks/why-like/__tag/why-like__tag.css');
 @import url('../blocks/why-like/__text/why-like__text.css');
-@import url('../blocks/why-like/__text-container/why-like__text-container.css');
 @import url('../blocks/why-like/__wrapper/why-like__wrapper.css');
+@import url('../blocks/why-like/__text-divider/why-like__text-divider.css');
+@import url('../blocks/why-like/__statement/_position/why-like__statement_position.css');
+@import url('../blocks/why-like/__tag-list/why-like__tag-list.css');
 @import url('../blocks/place/place.css');
 @import url('../blocks/place/__title/place__title.css');
 @import url('../blocks/place/__subtitle/place__subtitle.css');
@@ -171,6 +173,7 @@
 @import url('../blocks/popup-place/__close-button/popup-place__close-button.css');
 @import url('../blocks/popup-place/__button-img/popup-place__button-img.css');
 @import url('../blocks/popup-place/___image/popup-place__image.css');
+@import url('../blocks/popup-place/__cont/popup-place__cont.css');
 @import url('../blocks/white-container/white-container.css');
 @import url('../blocks/team/team.css');
 @import url('../blocks/team/__container/team__container.css');
@@ -194,3 +197,9 @@
 @import url('../blocks/parents/__reason/_type/parents__reason_type_professions.css');
 @import url('../blocks/parents/__reason/_type/parents__reason_type_tea.css');
 @import url('../blocks/section-title/_type/section-title_type_parents.css');
+@import url('../blocks/section-title/_type/section-title_type_why-like.css');
+
+.show, .show * {
+	outline: 1px solid rgb(0, 153, 255);
+}
+

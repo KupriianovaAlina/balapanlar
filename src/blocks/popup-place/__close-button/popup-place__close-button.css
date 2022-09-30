@@ -2,11 +2,15 @@
 
 .popup-place__close-button {
 	position: relative;
-	top: -915px;
-	right: -897px;
+	top: -6px;
+	right: -877px;
 	padding: 0;
 	margin: 0%;
 	border: 0;
 	background: none;
 	cursor: pointer;
+}
+
+.popup-place__close-button:hover {
+	background-color: rgba(0, 0, 0, 0.3);
 }

@@ -11,3 +11,7 @@
 		font-size: 18px;
 	}
 }
+
+.questions__button:hover {
+	opacity: 70%;
+}

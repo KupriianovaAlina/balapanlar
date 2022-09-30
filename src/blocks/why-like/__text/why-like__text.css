@@ -2,6 +2,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	row-gap: 10px;
+	width: 80%;
 	margin: 0;
 	padding: 0;
 	color: #ffffff;
@@ -15,6 +16,7 @@
 
 @media screen and (max-width: 768px) {
 	.why-like__text {
+		width: 100%;
 		text-align: center;
 	}
 }

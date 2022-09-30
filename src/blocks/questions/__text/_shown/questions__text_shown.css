@@ -1,5 +1,5 @@
 .questions__text_shown {
-	max-height: 500px;
+	max-height: 3000px; /* данное свойство необходимо для транзишена */
 	padding-top: 15px;
 	visibility: visible;
 	opacity: 1;

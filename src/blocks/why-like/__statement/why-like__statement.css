@@ -13,18 +13,15 @@
 		width: 100%;
 		font-size: 40px;
 		line-height: 49px;
-		letter-spacing: -1px;
 		text-align: center;
 	}
 }
 
 @media screen and (max-width: 600px) {
 	.why-like__statement {
-		font-weight: 600;
 		font-size: 24px;
 		font-style: normal;
 		line-height: 29px;
 		letter-spacing: -0.5px;
-		text-align: center;
 	}
 }
