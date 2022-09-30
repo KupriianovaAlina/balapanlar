@@ -1,18 +1,18 @@
 .parents {
-	margin: 0;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 	box-sizing: border-box;
 	width: 100%;
-	padding: 109px 0 0;
-	background-color: #ffffff;
-	overflow: hidden;
-	perspective: 1px;
 	min-height: 110vh;
+	margin: 0;
+	padding: 109px 0 0;
+	overflow: hidden;
 	overflow-y: auto;
-	position: relative;
+	background-color: #ffffff;
+	perspective: 1px;
 }
 
 @media screen and (max-width: 768px) {

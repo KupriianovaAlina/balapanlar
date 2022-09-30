@@ -1,15 +1,15 @@
 .button_for_mentor {
-  background-color: #ae46ff;
-  margin: 0;
-  padding: 20px 28px;
-  font-size: 20px;
-  line-height: 24.38px;
+	margin: 0;
+	padding: 20px 28px;
+	font-size: 20px;
+	line-height: 24.38px;
+	background-color: #ae46ff;
 }
 
 @media screen and (max-width: 480px) {
-  .button_for_mentor {
-    padding: 20px 24px;
-    font-size: 16px;
-    line-height: 19.5px;
-  }
+	.button_for_mentor {
+		padding: 20px 24px;
+		font-size: 16px;
+		line-height: 19.5px;
+	}
 }

@@ -1,8 +1,8 @@
 .parents__base {
 	width: 100%;
+	height: calc(10vw + 1000px);
 	margin-top: 80%;
 	background-color: #eaf0ff;
-	height: calc(10vw + 1000px);
 }
 
 @media screen and (max-width: 1300px) {

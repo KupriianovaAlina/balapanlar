@@ -5,20 +5,20 @@
 	align-items: flex-start;
 	max-width: 876px;
 	min-height: 831px;
-	aspect-ratio: 292 / 277;
-	border-radius: 150px;
 	background-repeat: no-repeat;
-	background-size: cover;
 	background-position: center;
+	background-size: cover;
+	border-radius: 150px;
+	aspect-ratio: 292 / 277;
 }
 
 @media screen and (max-width: 640px) {
 	.parents__reason {
-		max-width: 900px;
-		min-height: 1200px;
-		aspect-ratio: 300 / 400;
-		border-radius: 90px;
 		justify-content: center;
 		align-items: center;
+		max-width: 900px;
+		min-height: 1200px;
+		border-radius: 90px;
+		aspect-ratio: 300 / 400;
 	}
 }

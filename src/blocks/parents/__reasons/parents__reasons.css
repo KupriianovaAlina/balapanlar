@@ -1,21 +1,21 @@
 .parents__reasons {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 30px;
-	justify-items: stretch;
-	align-items: stretch;
 	position: absolute;
 	top: 1060px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: stretch;
+	align-items: stretch;
+	gap: 30px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 	transform: translateZ(-2px);
 }
 
 @media screen and (max-width: 1300px) {
 	.parents__reasons {
-		grid-template-columns: repeat(2, 1fr);
 		top: 900px;
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 640px) {
 	.parents__reasons {
-		grid-template-columns: repeat(1, 1fr);
 		top: 50px;
+		grid-template-columns: repeat(1, 1fr);
 	}
 }

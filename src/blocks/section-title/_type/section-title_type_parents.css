@@ -1,15 +1,15 @@
 .section-title_type_parents {
-	margin: 0px 0 360px;
-	width: 300%;
-	font-style: normal;
-	font-weight: 1000;
-	font-size: 180px;
-	line-height: 204px;
-	text-align: center;
-	letter-spacing: -3px;
-	color: #252525;
 	position: absolute;
 	top: 300px;
+	width: 300%;
+	margin: 0 0 360px;
+	color: #252525;
+	font-weight: 1000;
+	font-size: 180px;
+	font-style: normal;
+	line-height: 204px;
+	letter-spacing: -3px;
+	text-align: center;
 	transform: translateZ(-2px);
 }
 
@@ -21,19 +21,19 @@
 
 @media screen and (max-width: 744px) {
 	.section-title_type_parents {
-		font-size: 144px;
-		line-height: 177px;
 		top: -300px;
 		margin-bottom: 240px;
+		font-size: 144px;
+		line-height: 177px;
 	}
 }
 
 @media screen and (max-width: 640px) {
 	.section-title_type_parents {
+		top: -500px;
+		max-width: 900px;
+		margin-bottom: 150px;
 		font-size: 108px;
 		line-height: 132px;
-		max-width: 900px;
-		margin-bottom:150px;
-		top: -500px;
 	}
 }
