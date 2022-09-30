@@ -184,9 +184,9 @@
 @import url('../blocks/parents/parents.css');
 @import url('../blocks/parents/__ellipse/parents__ellipse.css');
 @import url('../blocks/parents/__base/parents__base.css');
-@import url('../blocks/parents/__container/parents__container.css');
 @import url('../blocks/parents/__reasons/parents__reasons.css');
 @import url('../blocks/parents/__reason/parents__reason.css');
+@import url('../blocks/parents/__separator/parents__separator.css');
 @import url('../blocks/parents/__reason/_type/parents__reason_type_main.css');
 @import url('../blocks/parents/__reason-description/parents__reason-description.css');
 @import url('../blocks/parents/__reason/_type/parents__reason_type_time.css');

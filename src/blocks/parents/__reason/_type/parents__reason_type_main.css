@@ -3,6 +3,7 @@
 	max-width: 1752px;
 	color: #ffffff;
 	background-image: url('../../../../vendor/images/Rectangle21.png');
+	aspect-ratio: 584 / 277;
 }
 
 @media screen and (max-width: 640px) {
@@ -10,5 +11,6 @@
 		grid-area: 1 / 1 / 1 / 1;
 		background-color: #2548ff;
 		background-image: none;
+		aspect-ratio: 300 / 400;
 	}
 }
