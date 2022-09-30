@@ -1,14 +1,14 @@
 .parents__base {
 	width: 100%;
+	height: 130vw;
 	margin-top: 60%;
 	background-color: #eaf0ff;
-	height: 130vw;
 }
 
 @media screen and (max-width: 1300px) {
 	.parents__base {
-		margin-top: 80%;
 		height: 240vw;
+		margin-top: 80%;
 	}
 }
 

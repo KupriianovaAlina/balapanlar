@@ -6,11 +6,11 @@
 		'. footer__info'
 		'. footer__info';
 	justify-content: space-between;
+	box-sizing: border-box;
 	width: 100%;
+	max-width: 1440px;
 	padding: 160px 120px 80px;
 	background-color: white;
-	box-sizing: border-box;
-	max-width: 1440px;
 }
 
 @media screen and (max-width: 922px) {

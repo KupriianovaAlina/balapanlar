@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 640px) {
 	.parents__reason-description {
-		text-align: center;
 		margin: 0 111px;
+		text-align: center;
 	}
 }

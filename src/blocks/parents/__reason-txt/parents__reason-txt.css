@@ -9,9 +9,9 @@
 
 @media screen and (max-width: 640px) {
 	.parents__reason-txt {
+		margin: 0 111px;
 		font-size: 72px;
 		line-height: 87px;
 		text-align: center;
-		margin: 0 111px;
 	}
 }

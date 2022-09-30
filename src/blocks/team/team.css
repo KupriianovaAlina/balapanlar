@@ -10,14 +10,14 @@
 
 @media screen and (max-width: 768px) {
 	.team {
-		padding-left: 75px;
 		padding-right: 75px;
+		padding-left: 75px;
 	}
 }
 
 @media screen and (max-width: 480px) {
 	.team {
-		padding-left: 10px;
 		padding-right: 10px;
+		padding-left: 10px;
 	}
 }

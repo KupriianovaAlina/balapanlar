@@ -1,25 +1,25 @@
 .parents__reasons {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
 	display: grid;
-	grid-template-columns: repeat(4, 876px);
 	grid-template-rows: repeat(auto-fit, 831px);
-	gap: 30px;
+	grid-template-columns: repeat(4, 876px);
 	justify-items: stretch;
 	align-items: stretch;
+	gap: 30px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 
 @media screen and (max-width: 1300px) {
 	.parents__reasons {
-		grid-template-columns: repeat(2, 876px);
 		grid-template-rows: repeat(auto-fit, 831px);
+		grid-template-columns: repeat(2, 876px);
 	}
 }
 
 @media screen and (max-width: 640px) {
 	.parents__reasons {
-		grid-template-columns: repeat(1, 900px);
 		grid-template-rows: repeat(auto-fit, 1200px);
+		grid-template-columns: repeat(1, 900px);
 	}
 }

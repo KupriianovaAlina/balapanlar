@@ -1,14 +1,14 @@
 .parents__container {
-	width: 100%;
-	background-color: #eaf0ff;
-	padding: 0 0 211px;
-	box-sizing: border-box;
+	position: absolute;
+	top: 100vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	position: absolute;
-	top: 100vw;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 0 211px;
+	background-color: #eaf0ff;
 	transform: translateZ(-2px);
 }
 
@@ -27,7 +27,6 @@
 @media screen and (max-width: 770px) {
 	.parents__container {
 		top: 60vw;
-
 	}
 }
 
