@@ -7,7 +7,7 @@
 	border-radius: 60px;
 	-moz-border-radius: 60px;
 	overflow: hidden;
-	padding: 16px;
+	border: 0;
 }
 
 @media all and (max-width: 992px) {

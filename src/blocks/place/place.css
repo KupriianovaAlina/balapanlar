@@ -1,6 +1,6 @@
 .place {
 	width: calc(100% - 120px * 2);
-	padding: 120px 0 120px 120px;
+	padding: 240px 0 120px 120px;
 }
 
 @media all and (max-width: 744px) {

@@ -1,0 +1,9 @@
+.why-like__statement_position{
+	margin-top: 40px;
+}
+
+@media screen and (max-width: 480px) {
+	.why-like__statement_position{
+		margin-top: 14px;
+	}
+}
