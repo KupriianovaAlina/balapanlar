@@ -1,0 +1,12 @@
+.why-like__text-divider {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+	.why-like__text-divider {
+		white-space: normal;
+	}
+}
