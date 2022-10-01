@@ -4,6 +4,7 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/main/main.css');
 @import url('../blocks/border-radius/border-radius.css');
+@import url('../blocks/border-radius/border-radius_size-xl.css');
 @import url('../blocks/border-radius/border-radius_size-l.css');
 @import url('../blocks/border-radius/border-radius_size-m.css');
 @import url('../blocks/border-radius/border-radius_size-s.css');
@@ -76,6 +77,7 @@
 @import url('../blocks/section-title/section-title.css');
 @import url('../blocks/section-title/_type/section-title_type_courses.css');
 @import url('../blocks/section-subtitle/section-subtitle.css');
+@import url('../blocks/section-subtitle/_type/section-subtitle_type_help.css');
 @import url('../blocks/section-title/_type/section-title_type_parents.css');
 @import url('../blocks/about/about.css');
 @import url('../blocks/about/__container/about__container.css');
@@ -112,8 +114,6 @@
 @import url('../blocks/principles/__heading/principles__heading.css');
 @import url('../blocks/principles/__pic/_oval/principles__pic_oval.css');
 @import url('../blocks/help/help.css');
-@import url('../blocks/help/__container/help__container.css');
-@import url('../blocks/help/__blocks-container/help__blocks-container.css');
 @import url('../blocks/help/__blocks-title/help__blocks-title.css');
 @import url('../blocks/help/__blocks-grid/help__blocks-grid.css');
 @import url('../blocks/help/__block-container/help__block-container.css');

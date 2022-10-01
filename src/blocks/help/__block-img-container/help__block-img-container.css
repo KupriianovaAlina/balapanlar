@@ -1,7 +1,12 @@
 .help__block-img-container {
-	display: flex;
-	width: 100%;
-	margin: 0 auto;
+	max-width: 592px;
+	max-height: 431px;
 	overflow: hidden;
-	border-radius: 60px;
+}
+
+@media screen and (max-width: 480px) {
+	.help__block-img-container  {
+		min-height: 280px;
+		min-width: 290px;
+	}
 }
