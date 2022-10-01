@@ -1,0 +1,9 @@
+.section-subtitle_type_help{
+	padding:40px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+	.section-subtitle_type_help {
+		padding: 30px 0 0;
+	}
+}
