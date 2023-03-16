@@ -26,7 +26,7 @@
 		"test": "npm run editorconfig && npm run stylelint",
 		"prepare": "husky install",
 		"staged": "lint-staged",
-		"build": "webpack --mode production",
+		"build": "webpack --mode development",
 		"dev": "webpack serve",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d dist"
