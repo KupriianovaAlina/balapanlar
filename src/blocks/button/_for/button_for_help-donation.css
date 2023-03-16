@@ -1,0 +1,14 @@
+.button_for_donation {
+	margin: 0;
+	padding: 20px 28px;
+	font-size: 20px;
+	line-height: 24.38px;
+}
+
+@media screen and (max-width: 480px) {
+	.button_for_donation {
+		padding: 20px 24px;
+		font-size: 16px;
+		line-height: 19.5px;
+	}
+}

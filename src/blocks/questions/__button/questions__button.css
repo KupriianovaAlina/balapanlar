@@ -1,0 +1,17 @@
+.questions__button {
+	width: 20px;
+	height: 25px;
+	font-size: 26px;
+	background-color: transparent;
+	border-style: none;
+}
+
+@media screen and (max-width: 990px) {
+	.questions__button {
+		font-size: 18px;
+	}
+}
+
+.questions__button:hover {
+	opacity: 70%;
+}

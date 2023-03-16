@@ -1,0 +1,12 @@
+.help__block-img-container {
+	max-width: 592px;
+	max-height: 431px;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+	.help__block-img-container  {
+		min-height: 280px;
+		min-width: 290px;
+	}
+}

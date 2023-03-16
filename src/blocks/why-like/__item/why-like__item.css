@@ -1,0 +1,31 @@
+.why-like__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 40px;
+	box-sizing: border-box;
+	width: 1000px;
+	min-height: 650px;
+	padding: 0 214px 0 120px;
+	border-radius: 60px;
+}
+
+@media screen and (max-width: 768px) {
+	.why-like__item {
+		align-items: center;
+		width: auto;
+		min-width: auto;
+		min-height: 524px;
+		padding: 0 45px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.why-like__item {
+		gap: 15px;
+		min-height: 400px;
+		padding: 0 25px;
+		border-radius: 30px;
+	}
+}

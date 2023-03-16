@@ -1,0 +1,36 @@
+.parents__base {
+	width: 100%;
+	height: calc(10vw + 1000px);
+	margin-top: 80%;
+	background-color: #eaf0ff;
+}
+
+@media screen and (max-width: 1300px) {
+	.parents__base {
+		height: calc(10vw + 2800px);
+	}
+}
+
+@media screen and (max-width: 744px) {
+	.parents__base {
+		height: 2400px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.parents__base {
+		height: 7350px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.parents__base {
+		height: 7600px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.parents__base {
+		height: calc(8800px - 400vw);
+	}
+}

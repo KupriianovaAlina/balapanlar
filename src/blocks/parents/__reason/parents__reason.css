@@ -1,0 +1,24 @@
+.parents__reason {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	max-width: 876px;
+	min-height: 831px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 150px;
+	aspect-ratio: 292 / 277;
+}
+
+@media screen and (max-width: 640px) {
+	.parents__reason {
+		justify-content: center;
+		align-items: center;
+		max-width: 900px;
+		min-height: 1200px;
+		border-radius: 90px;
+		aspect-ratio: 300 / 400;
+	}
+}

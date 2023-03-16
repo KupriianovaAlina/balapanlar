@@ -1,0 +1,19 @@
+.footer__copy-block {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-top: 57px;
+}
+
+@media all and (max-width: 744px) {
+	.footer__copy-block {
+		margin: 0;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.footer__copy-block {
+		width: 100%;
+		margin-top: 7px;
+	}
+}
